@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(0,0,0);
+}
+
+h1 {
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+#a1 {
+    color: rgb(255,255,255);
+    font-size: large;
+}
+
+.alpha {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.gamma {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255,0,0);
+    color: rgb(255,255,255);
+    padding: 1rem;
+    height: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pic {
+    max-width: 25%; 
+}
+
+@media (min-width: 800px) {
+    .alpha { grid-template-columns: repeat(3, 1fr); }
+}
